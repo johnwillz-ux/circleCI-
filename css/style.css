@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.row{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+
+h1{ 
+    line-height: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+cul{
+    background-color: #161616;
+}
+
+
+
+
+
+
+
+
+
+
+/*------------------NAVIGATION BAR-------------------*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo{
+    width: 120px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.menu{
+    list-style: none;
+    
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0px 15px;
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    background-color: #161616;
+    height: 90vh;
+}
+
+.logbtn{
+    background-color: #049B4A;
+    margin-right: 0px;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.vl{
+    border-left: 3px solid;
+    padding: 10px;
+    height: 500px;
+    border-color: white;
+    
+}
+.menu .mobmenu{
+    display: none;
+}
+    
+
+
+
+/*-------TEXT AND IMAGE SIDE--------*/
+.herobanner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 0;
+    
+    
+}
+
+.textimg{
+    width: 500px;
+    transition: 0.8s ease;
+}
+
+.textp {
+    text-align: center;
+    color: #36D4ED;
+    font-style: bold;
+}
+
+.hero-text-box{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+    color: white;
+    
+}
+.hero-text-box h1{
+    
+}
+
+
+.btn{
+    display: inline-block;
+    align-items: center;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn1{
+    background-color: #049B4A;
+     border: 1px solid;
+    border-color: #049B4A;
+    
+    
+}
+
+.btn2{
+    border: 1px solid;
+    border-color: white;
+   
+}
+/*-----------SOCCIAL ICONS-------------*/
+
+.social{
+    
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:#161616;
+    border-top: 1px solid;
+    border-color: rgba(195, 187, 187, 0.28);
+    
+}
+
+
+.social img{
+    padding: 30px;
+    
+}
+
+
+/*------------1st SECTION-------------*/
+.sec1 div img{
+    width: 400px;
+    margin-right: 200px
+}
+.sec1{
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.6px solid;
+    border-color: rgba(195, 187, 187, 0.37);
+    
+}
+
+.Lbtn{
+    border: 2px solid;
+    border-color: #04aa51;
+    display: inline-block;
+    align-items: center;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 60px;
+    color: #04aa51;
+    text-decoration: none;
+   
+}
+
+.cil{
+    align-items: center;
+    
+}
+
+
+/*-----------2ND SECTION-----------*/
+
+.sec2{
+    justify-content: center;
+    text-align: center;
+/*    padding-top: 60px;*/
+}
+
+.feat{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding:90px;
+    
+}
+
+
+
+.featall{
+    padding: 30px;
+}
+
+
+
+
+/*-----------TESTIMONIALS---------*/
+
+.testsec{
+    text-align: center;
+    background-color: #F3F3F3;
+    align-items: center;
+    padding: 120px;
+    align-content: center;
+    
+    
+}
+
+.testcon{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.testcon img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+span{
+    font-weight: bold;
+    
+}
+
+/*-----------------RESOURCES--------------*/
+
+.resGrid div img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    
+}
+
+.resGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
+
+.ResSec{
+    padding: 90px;
+}
+
+.ResT{
+display: block;
+    padding: 10px;
+}
+
+
+
+/*----------LAST SECTION--------*/
+
+.retext{
+    text-align: center;
+}
+
+
+.seclast{
+    background-color: #161616;
+    border-bottom: 0.6px solid;
+    border-color: rgba(195, 187, 187, 0.37);
+}
+
+
+.seclast h1 {
+    line-height: 70px;
+}
+
+.seclast p{
+    line-height: 40px;
+}
+
+.lastsec{
+    justify-content: center;
+    text-align: center;
+    padding: 90px;
+    color: white;
+    
+}
+
+
+/*-------------FOOTER-------------*/
+
+.foter{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+}
+
+.fotsec{
+    background-color: #161616;
+    
+}
+
+
+.singlefooter{
+    margin: 40px;
+    float: left;
+    text-align: left;
+    color: white;  
+    padding-top: 20px;
+}
+
+.singlefooter ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/*-----------------RESPONSIVE PART----------------*/
+
+@media only screen and (max-width:1200px){
+
+    .menu li{
+        display: none;
+    }
+    
+    
+    .logo{
+    width: 110px;
+    margin-right: 20px;
+      
+    }
+    
+    
+    .menu .mobmenu{
+    display: block;
+}
+/*
+.row{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+*/
+    
+    .sec1{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.6px solid;
+    border-color: rgba(195, 187, 187, 0.37);
+    
+    
+}
+    .sec1{
+        padding-top: 150px;
+    
+        text-align: center;
+    }
+    
+    .sec1 div img{
+        margin-right: 0px
+    }
+
+
+/*
+.cil{
+    justify-content: center;
+    align-items: center;
+    
+}
+
+*/
+    
+}
+
+
+    @media only screen and (max-width:1000px){
+            
+    .herobanner{
+        display: block;
+        text-align: center;
+    }
+        
+        .social{
+            margin-top: -90px;
+        }
+        
+        
+        .textp {
+    text-align: center;
+    color: #36D4ED;
+    font-style: bold;
+            padding-bottom:30px;
+}
+        
+        .textimg{
+    width: 400px;
+            transition: 0.8s ease;
+}
+    
+
+}
+
+@media only screen and (max-width:375px){
+    
+    
+    *{
+        padding-right: 0px;
+        padding-right: 1px;
+        align-content: center;
+    }
+    
+    .ResSec{
+        padding: 0px;
+    }
+    
+    
+    
+    
+    
+    .h1s{
+        font-size: 18px;
+    }
+            
+    .herobanner{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .social{
+        margin-top: -120px
+    }
+    
+    
+    
+    
+        
+        .social{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            
+        }
+        
+        
+        .textp {
+    text-align: center;
+    color: #36D4ED;
+    font-style: bold;
+            padding-bottom:30px;
+}
+        
+        .textimg{
+    width: 250px;
+            transition: 0.8s ease;
+}
+    
+
+}
+
+
+
+
+
+
+@media only screen and (max-width:667px){
+    
+    .sec1{
+        padding-top: 300px;
+    }
+}
+    

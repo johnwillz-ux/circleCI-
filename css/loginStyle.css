@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #161616;
+    color: white;
+
+}
+
+
+.row {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+
+/*-----------------NAV BAR------------------*/
+.lognav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+}
+
+
+
+.lognav img {
+    width: 120px;
+    padding-left: 20px;
+
+}
+
+a {
+    color: #35CFE7;
+    text-decoration: none;
+
+}
+
+
+/*----------1ST SECTION-------------*/
+.sec1 {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    padding: 20px;
+}
+
+.signup {
+    padding-right: 200px;
+
+}
+
+.sec1 div h1 {
+    font-size: 50px;
+    border-bottom: 10px solid;
+    border-width: 5px;
+    border-left: 2px;
+    margin-bottom: 15px;
+
+
+
+}
+
+.sec1 div .bigt {
+    font-size: 20px;
+    word-spacing: 3px;
+    line-height: 30px;
+}
+
+
+.smallt {
+    padding-top: 20px;
+
+}
+
+
+h3 {
+    font-size: 30px;
+}
+
+.gitbtn {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: #049B4A;
+
+}
+
+.bitbtn {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: #0d56c9;
+}
+
+.btnside {
+    padding-right: 400px;
+}
+
+
+
+/*-------------FOOTER-------------*/
+
+
+.fotsec{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.foter {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    bottom: 0;
+    position: absolute;
+}
+
+
+
+.singlefooter {
+    margin: 40px;
+    float: left;
+    text-align: left;
+    color: white;
+    padding-top: 20px;
+}
+
+.singlefooter ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h3{
+    font-size: 20px;
+}
